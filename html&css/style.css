@@ -622,6 +622,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 15%;
 }
 .ready .ready-title{
     margin-top: 30px;
@@ -661,12 +662,14 @@ footer{
     flex-direction: column;
     justify-content: end;
     align-content: end;
+    margin-top: 10%;
     position: relative;
 }
 footer .minifooter{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-color: #2A3040;
+    /* margin-top: 5%; */
    
 }
 .become{
@@ -674,7 +677,7 @@ footer .minifooter{
     justify-content: center;
     gap: 5%;
     position: absolute;
-    top: 10%;
+    top: 0%;
    
     left: 20%;
     text-align: center;
@@ -692,6 +695,44 @@ footer .minifooter{
 
 
 }
+.minifooter .partiner{
+    display: flex;
+    justify-content: start;
+}
+.partiner img{
+    margin-top: 10%;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.partiner .txt-partiner{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.partiner h6{
+    font-size: 1.3em;
+    text-align: start;
+}
+.partiner p{
+    text-align: start;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.partiner button{
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FE5200;
+    color: #fff;
+    font-weight: 600;
+    text-align: start;
+    margin-right: 30px;
+    cursor: pointer;
+}
 .minifooter .middle-footer{
     color: white;
     margin-top: 15%;
@@ -699,7 +740,114 @@ footer .minifooter{
     grid-template-columns: 200px 200px 200px 400px;
     justify-content: center;
 }
+.middle-footer{
+    border-bottom: #6D6D6D 1px solid;
+    padding-bottom: 10px;
+}
+.middle-footer .logo{
+    
 
+}
+.middle-footer .logo h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+.middle-footer .logo p{
+    color: #6D6D6D;
+    padding: 20px 0;
+}
+.links{
+    margin-left: 10px;
+
+}
+.links h1{
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.links p{
+    padding-top: 40px;
+    color: #6D6D6D;
+}
+.middle-footer .information{
+    padding-bottom: ;
+
+}
+.middle-footer .information h1{
+    font-size: 1em;
+    padding-bottom: 10px;
+
+}
+.middle-footer .information p{
+    font-size: ;
+    color: #6D6D6D;
+    padding-top: 40px;
+}
+.subscribe{
+
+}
+.subscribe h1{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    color: #6D6D6D;
+    padding-top: 40px;
+}
+.subscribe input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.subscribe button{
+    width: 100%;
+    height: 40px;
+    background-color: #FE5200;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.6em;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #2A3040;
+    padding: 20px;
+}
+.copy-right p{
+    color: #6D6D6D;
+    
+    
+}
+.copy-right .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.copy-right i{
+    background-color: #ffff;
+    
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    color: #2A3040;
+    
+   
+}
 
 
 
